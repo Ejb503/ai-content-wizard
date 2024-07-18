@@ -1,3 +1,4 @@
+from datetime import datetime
 import json
 from typing import List
 import praw
@@ -7,6 +8,7 @@ import os
 from api.claude import ClaudeChat
 from api.fetch_prompt import PromptFetcher
 from reddit.reddit_config import LIMIT, ANALYSE_REDDIT_PROMPT
+from system.utils import select_content_source
 
 class Reddit:
     def __init__(self):
@@ -25,12 +27,15 @@ class Reddit:
         logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
     def analyse_reddit(self):
-        with open('content/reddit_api_content.json', 'r', encoding='utf-8') as file:
+        source_file = select_content_source('reddit')
+        with open(source_file, 'r', encoding='utf-8') as file:
             reddit_content = json.load(file)
+
         system_instruction, user_instruction, tools = PromptFetcher.fetch_prompt(ANALYSE_REDDIT_PROMPT, json.dumps(reddit_content))
 
-        filename = input("Enter the filename to save the tweets. Lowercase, no spaces: ").lower().replace(" ", "_")
-        file_path = f'content/{filename}.json' 
+        filename = input("Enter the filename to save the analysis of the Reddit posts. Lowercase, no spaces: ").lower().replace(" ", "_")
+        file_path = f'content/{filename}.analysis.reddit.json' 
+
         ClaudeChat.send_message(file_path, system_instruction, user_instruction, tools)
         print(f"Reddit analysis complete, saved to {file_path}.")  
 
@@ -50,7 +55,8 @@ class Reddit:
                     'upvotes': post['upvotes'],
                     'comments': post['comments'],
                     'url': post['url'],
-                    'content': post['content']
+                    'content': post['content'],
+                    'date': post['date'],
                 }
                 posts_data.append(post_data)
 
@@ -58,14 +64,14 @@ class Reddit:
         return posts_data
             
 
-    def _fetch_posts(self, subreddit, mode, seen_posts, **kwargs):
+    def _fetch_posts(self, subreddit, mode, seen_posts, time_filter='week', **kwargs):
         """
         Fetches posts from a subreddit based on the mode and returns their details.
         """
         fetch_method = getattr(subreddit, mode)
         posts_details = []
         if mode in ['top', 'controversial']: 
-            for submission in fetch_method(limit=LIMIT, **kwargs):
+            for submission in fetch_method(time_filter=time_filter, limit=LIMIT, **kwargs):
                 if not submission.stickied and submission.id not in seen_posts:
                     posts_details.append(self._get_post_details(submission, mode, seen_posts))
         else:
@@ -79,6 +85,8 @@ class Reddit:
         Returns a single post's details.
         """
         seen_posts.add(submission.id)
+        readable_date = datetime.fromtimestamp(submission.created_utc).strftime('%Y-%m-%d %H:%M:%S')
+
         return {
             "title": submission.title,
             "author": str(submission.author),
@@ -86,7 +94,8 @@ class Reddit:
             "comments": submission.num_comments,
             "url": submission.url,
             "content": submission.selftext,
-            "mode": mode
+            "mode": mode,
+            "date": readable_date 
         }
 
     def load_or_create_reddit_channels() -> List[str]:
@@ -101,7 +110,7 @@ class Reddit:
         Returns:
             List[str]: A list of Reddit channel names.
         """
-        channels_file_path: str = 'reddit/channels.json'
+        channels_file_path: str = 'content/reddit_channels.json'
         if os.path.exists(channels_file_path):
             try:
                 with open(channels_file_path, 'r') as file:
@@ -140,7 +149,8 @@ class Reddit:
             data (dict): The data to write to the file.
             mode (str): The mode of the subreddit data (e.g., 'hot', 'new', etc.).
         """
-        file_path = f'content/${filename}.reddit.json'
+        filename = input("Enter the filename to save the data. Lowercase, no spaces: ").lower().replace(" ", "_")
+        file_path = f'content/{filename}.source.reddit.json'
         os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
         try:

@@ -13,6 +13,8 @@ class ClaudeChat:
                 logging.error("CLAUDE_API_KEY is not set.")
                 return None
 
+            print(f"Claude beginning analysis {file_path}.")  
+
             client = Anthropic(api_key=api_key)
 
             response = client.messages.create(
