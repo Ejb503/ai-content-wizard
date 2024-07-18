@@ -28,7 +28,8 @@ def fetch_topic():
 
 def analyse_topic():
     submenu_options = [
-        "1. Choose a topic to analyse",
+        "1. Analyse Reddit Posts",
+        "2. Analyse arxiv Posts",
     ]
     print("Analysing social media topic...")
     for option in submenu_options:
@@ -41,5 +42,16 @@ def analyse_topic():
         reddit.analyse_reddit()
 
 def create_content():
-    # Implement the content creation logic here
-    print("Creating social media content...")
+    submenu_options = [
+        "1. Create Twitter Post",
+        "2. Create LinkedIn Post",
+    ]
+    print("Analysing social media topic...")
+    for option in submenu_options:
+        print(option)
+    # Prompt user for a choice
+    choice = input("Please select an option: ")
+
+    if choice == "1":
+        reddit = Reddit()
+        reddit.analyse_reddit()
