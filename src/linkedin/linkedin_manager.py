@@ -1,7 +1,5 @@
 import json
 import logging
-import os
-import glob
 from api.claude import ClaudeChat
 from api.fetch_prompt import PromptFetcher
 from research.research_manager import research_post

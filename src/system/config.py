@@ -1,8 +1,7 @@
-# Configuration for menu options
 from colorama import Fore
 
+main_options = ["fetch_data", "analyse_data", "create_content"]
 
-main_options = ["fetch_topic", "analyse_topic", "create_content"]
 WHITE = Fore.WHITE
 BLUE = Fore.BLUE
 YELLOW = Fore.YELLOW

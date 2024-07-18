@@ -63,3 +63,19 @@ def select_post_from_list(content):
                 print("Invalid selection. Please select a number from the list.")
         except ValueError:
             print("Please enter a valid number.")
+
+def select_arxiv_post_from_list(content):
+
+    for index, post in enumerate(content, start=1):
+        print(f"{index}. {post['title']}")
+
+    while True:
+        try:
+            choice = int(input("Select the post number you want to view: "))
+            if 1 <= choice <= len(content):
+                selected_post = content[choice - 1]
+                return selected_post
+            else:
+                print("Invalid selection. Please select a number from the list.")
+        except ValueError:
+            print("Please enter a valid number.")
