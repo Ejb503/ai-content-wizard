@@ -2,26 +2,18 @@
     {
         "title": "More than 40% of Japanese companies have no plan to make use of AI: Reuters poll",
         "mode": "Hot",
-        "upvotes": 36,
-        "comments": 13,
+        "upvotes": 34,
+        "comments": 14,
         "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1e602ci/more_than_40_of_japanese_companies_have_no_plan/",
         "content": "Japanese companies are divided on their [readiness to use AI](https://aiar.news/2024/07/18/more-than-40-of-japanese-companies-have-no-plan-to-make-use-of-ai-reuters-poll/), a Reuters poll found. Of these, a quarter (24%) have already implemented AI and as many as 35% are planning to do so - but the largest contingent by some margin, at 41%, will remain without an artificial upgrade. Top drivers for AI adoption by companies: shortage of workforce (60%), labour cost reduction (53%) and acceleration in R&D (36%). Still, issues such as employees worrying about job security and a lack of skills in AI are key hurdles for potential business customers.\n\nThe survey reveals cybersecurity as a concern with 15% falling victim to attacks in the past year and many relying on third-party defence. There's also been a social change with 50% of companies supporting the legislation to promote separate surnames for spouses, which may affect employee morale and hiring.\n\nSuch a bifurcation in AI adoption reflects the difficult-to-navigate path towards innovation and transformation in corporate Japan."
     },
     {
         "title": "What is the likelihood that we will see a seismic shift to our lifestyle by 2030?",
         "mode": "Hot",
-        "upvotes": 9,
+        "upvotes": 10,
         "comments": 30,
         "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1e64aux/what_is_the_likelihood_that_we_will_see_a_seismic/",
         "content": "And what would you say are the chances that despite all the investment AI progress does could still hit an insurmountable wall and ultimately never reach any form of general intelligence (which is still very useful but not in a way that will revolutionize our lives or solve problems besetting our species or anything that we're hoping for)?\n\nI oscillate between thinking that everything will have changed by 2030 and nothing much will have changed. \n\nBut I think ultimately with all the brain power and funding being funneled into AI, I would be incredibly surprised and disappointed if we did hit a ceiling that we couldn't break through "
-    },
-    {
-        "title": "Is it really already AI?",
-        "mode": "Hot",
-        "upvotes": 18,
-        "comments": 43,
-        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1e5ytf1/is_it_really_already_ai/",
-        "content": "Would you consider the current state of Artificial Intelligence technology already as ‘living up to the name’? I mean obviously it’s artificial but in this case; how would you make a case for the ‘intelligence’ part? \n\nOr would for example something like ‘algorithmic pattern recognition and -prediction technology’ be a more accurate description? And in this case; how would you label the current state of AI to more accurately represent the current state of AI and why?"
     },
     {
         "title": "AI-writing assistant in encrypted email that runs on your device and doens't collect data",
@@ -32,9 +24,17 @@
         "content": "If you're looking for a writing assistant in your email but don't wanna give your data to Google, Tech Crunch just announced that Proton launched their own implementation of an AI assistant that doens't collect data and can run on your device: [https://techcrunch.com/2024/07/18/proton-launches-privacy-first-ai-writing-assistant-for-email-that-runs-on-device/](https://techcrunch.com/2024/07/18/proton-launches-privacy-first-ai-writing-assistant-for-email-that-runs-on-device/)"
     },
     {
+        "title": "Is it really already AI?",
+        "mode": "Hot",
+        "upvotes": 14,
+        "comments": 43,
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1e5ytf1/is_it_really_already_ai/",
+        "content": "Would you consider the current state of Artificial Intelligence technology already as ‘living up to the name’? I mean obviously it’s artificial but in this case; how would you make a case for the ‘intelligence’ part? \n\nOr would for example something like ‘algorithmic pattern recognition and -prediction technology’ be a more accurate description? And in this case; how would you label the current state of AI to more accurately represent the current state of AI and why?"
+    },
+    {
         "title": "Detecting real-time eye status: Open or Closed",
         "mode": "Hot",
-        "upvotes": 1,
+        "upvotes": 0,
         "comments": 1,
         "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1e68guc/detecting_realtime_eye_status_open_or_closed/",
         "content": "Hey Reddit,\n\nI thought this would be an easy job, but it’s turning out to be more challenging than expected. I'm trying to use a state-of-the-art model on a GPU for a live camera feed. Here's what I need to achieve:\n\n\\* Accuracy: This is crucial for my project.  \n\\* Multiple Eyes Detection: I need to detect eyes on over 20 people in a 4K webcam stream.  \n\\* Run local. \n\nHere’s what I’ve tried so far:\n\n\\* Poligemma: The accuracy is great, but it's too slow for a live camera feed.\n\n\\* YOLOv8: I trained it with 1,000 images of open and closed eyes. The speed is fantastic, but the accuracy is lacking.\n\n\\* OWN-ViT: I loved this model for its speed and accuracy, but it couldn’t detect open and closed eyes. The documentation for training and fine-tuning is poor, and I couldn’t get it to work.\n\n\\* OpenAI CLIP: This is the model I’m currently most satisfied with, but I think the speed could be improved.\n\nAm I missing something? Any advice or recommendations would be greatly appreciated!"
@@ -138,7 +138,7 @@
     {
         "title": "Thanks to regulators, upcoming Multimodal Llama models won't be available to EU businesses",
         "mode": "Hot",
-        "upvotes": 264,
+        "upvotes": 265,
         "comments": 102,
         "url": "https://www.axios.com/2024/07/17/meta-future-multimodal-ai-models-eu",
         "content": "I don't know how to feel about this, if you're going to go on a crusade of proactivly passing regulations to reign in the US big tech companies, at least respond to them when they seek clarifications. \n\nThis plus Apple AI not launching in EU only seems to be the beginning. Hopefully Mistral and other EU companies fill this gap smartly specially since they won't have to worry a lot about US competition. \n\n\"Between the lines: Meta's issue isn't with the still-being-finalized AI Act, but rather with how it can train models using data from European customers while complying with GDPR — the EU's existing data protection law.\n\nMeta announced in May that it planned to use publicly available posts from Facebook and Instagram users to train future models. Meta said it sent more than 2 billion notifications to users in the EU, offering a means for opting out, with training set to begin in June.\nMeta says it briefed EU regulators months in advance of that public announcement and received only minimal feedback, which it says it addressed.\n\nIn June — after announcing its plans publicly — Meta was ordered to pause the training on EU data. A couple weeks later it received dozens of questions from data privacy regulators from across the region.\" "
@@ -146,7 +146,7 @@
     {
         "title": "Introducing Spectra: A Comprehensive Study of Ternary and FP16 Language Models",
         "mode": "Hot",
-        "upvotes": 82,
+        "upvotes": 81,
         "comments": 10,
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1e61odl/introducing_spectra_a_comprehensive_study_of/",
         "content": "**Tl;DR:** We train and open source a bunch of Ternary and FP16 models and do an exhaustive analysis of these models - on commonsense & reasoning, knowledge and toxicity, across scale. TriLMs (Ternary) at a Billion+ parameter scale consistently offer the best performance for their size (bits) over FloatLM (FP16) and their quantized versions. At 3.9 Billion parameters, TriLM (with a smaller size than the 830M FloatLM) matches the performance of a 3.9 Billion parameter FloatLM.\n\n**ArXiv:** [https://huggingface.co/papers/2407.12327](https://huggingface.co/papers/2407.12327)\n\n**HF:** [https://huggingface.co/SpectraSuite](https://huggingface.co/SpectraSuite)\n\n**Blog:** [https://blog.nolano.ai/Spectra-suite/](https://blog.nolano.ai/Spectra-suite/)\n\n**Abstract:**\n\nPost-training quantization is the leading method for addressing memory-related bottlenecks in LLM inference, but unfortunately, it suffers from significant performance degradation below 4-bit precision. An alternative approach involves training compressed models directly at a low bitwidth (e.g., binary or ternary models). However, the performance, training dynamics, and scaling trends of such models are not yet well understood. To address this issue, we train and openly release the *Spectra LLM suite* consisting of 54 language models ranging from 99M to 3.9B parameters, trained on 300B tokens. Spectra includes FloatLMs, post-training quantized QuantLMs (3, 4, 6, and 8 bits), and *ternary LLMs (TriLMs)* - our improved architecture for ternary language modeling, which significantly outperforms previously proposed ternary models of a given size (in bits), matching half-precision models at scale. For example, TriLM 3.9B is (bit-wise) smaller than the half-precision FloatLM 830M, but matches half-precision FloatLM 3.9B in commonsense reasoning and knowledge benchmarks. However, TriLM 3.9B is also as toxic and stereotyping as FloatLM 3.9B, a model six times larger in size. Additionally, TriLM 3.9B lags behind FloatLM in perplexity on validation splits and web-based corpora but performs better on less noisy datasets like Lambada and PennTreeBank.\n\n[Commonsense and Reasoning Performance](https://preview.redd.it/7tnrpw2c47dd1.png?width=3290&format=png&auto=webp&s=dbe71fa7ac2cca6d0db85c7210568cef8da14434)\n\n**Overview of Suite:**\n\n*Spectra LLM suite* has 54 models, ranging from 99M to 3.9B parameters, trained on 300B tokens, we have so far released 18 models (all Ternary TriLMs and FP16 FloatLMs). We will make the rest (including over 500 intermediate checkpoints) publicly available over the coming days.\n\n**Key Highlights:**\n\n•⁠ ⁠*TriLMs* significantly outperform previous ternary models (Bitnet b1.58) and match half-precision models in commonsense reasoning and knowledge benchmarks.\n\n•⁠ ⁠Despite being smaller in bit size, TriLM at the 3.9B scale matches the performance of the half-precision FloatLM 3.9B across Commonsense & Reasoning (Arc, Hellaswag, Lambada) and Knowledge (SciQ, MMLU). But they also match its negative aspects (bias and stereotyping)."
@@ -160,26 +160,26 @@
         "content": "Recently, LLMs focus on vector quantization, such as AQLM and QUIP# for the precise quantization in 2-bits. However, vector quantization introduce more challenge for deployment. \n\n  \nIn EfficentQAT, we focus on push the limitation of uniform(INT) quantization, successfully make INT quantization achieve comparable performance with vector quantiza.\n\n\n\nSpecially, EfficientQAT obtains a 2-bit Llama-2-70B model on a single A100-80GB GPU in 41 hours, with less than 3% accuracy degradation compared to the full precision (69.48 vs. 72.41). Notably, this INT2 quantized 70B model obtains a 1.67 accuracy gain over the Llama-2-13B model (69.48 vs. 67.81) while requiring less memory (19.2GB vs. 24.2GB).\n\n  \nCode is available at [https://github.com/OpenGVLab/EfficientQAT](https://github.com/OpenGVLab/EfficientQAT).\n\nhttps://preview.redd.it/61w8vm7i06dd1.png?width=1319&format=png&auto=webp&s=7832f07153e885b2e889138f4cbceabda3ebef27\n\nhttps://preview.redd.it/g2t0yn0n06dd1.png?width=1468&format=png&auto=webp&s=3bc387636453d33eb22582722399229e68751f85\n\n"
     },
     {
+        "title": "Comprehensive benchmark of GGUF vs EXL2 performance across multiple models and sizes",
+        "mode": "Hot",
+        "upvotes": 11,
+        "comments": 5,
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1e68k4o/comprehensive_benchmark_of_gguf_vs_exl2/",
+        "content": "Hi!\n\nI've been wanting to test exl2 vs gguf for some time as it seems that the common consensus is that if you can fit the model into vram=use exl2 and if not=use gguf. But due to some models not being supported on exl2 I've been using gguf more lately, and noticing really good speeds.\n\nSo I did a whole set of tests at different model sizes to confirm what is the current state of exl2 and gguf. I tested llama3 8B, 70B and a bigger MoE like WizardLM2 8x22B to cover a wide variety of sizes.\n\nSystem:\n\nEpyc 7402\n\n512GB Ram at 3200MHz\n\n4x3090 at 250w cap\n\nLlama.cpp commit: [https://github.com/ggerganov/llama.cpp/commit/3807c3de04cde853418033c95e96642876545f3e](https://github.com/ggerganov/llama.cpp/commit/3807c3de04cde853418033c95e96642876545f3e)\n\nExllamav2 0.1.7 [https://github.com/turboderp/exllamav2](https://github.com/turboderp/exllamav2)\n\nTabbyapi commt [https://github.com/theroyallab/tabbyAPI/commit/e20a2d504b95b12560cb3a90d4841a7e9d6b0e1e](https://github.com/theroyallab/tabbyAPI/commit/e20a2d504b95b12560cb3a90d4841a7e9d6b0e1e)\n\nAll models quantized by me.\n\nAll test done with:\n\n606 Token context\n\n500 Token generation\n\nPrompt processing without caching Generation speed average though 3 runs\n\nGGUF: Tested with Flash attention enabled and Q4 cache too.\n\nEXL2: It's mandatory to use Flash attention as far as I know, also Q4 cache.\n\n|Model|Format|Quant|Prompt t/s|Generation t/s|Notes|Observations|\n|:-|:-|:-|:-|:-|:-|:-|\n|Llama 3 8B|GGUF|Q6\\_K|3899.16|92.22|\\~/llama.cpp/llama-server -m \\~/models/Meta-Llama-3-8B-Instruct-Q6\\_K.gguf -ngl 99 --host [0.0.0.0](http://0.0.0.0) --port 5000 -fa -ctk q4\\_0 -ctv q4\\_0 Llama.cpp splits the models across the 4xGPUs by default. Tested with CUDA\\_VISIBLE\\_DEVICES=0 but the speed was lower when using a single GPU.|Q6\\_K is equivalent to 6.56bpw|\n|Llama 3 8B|EXL2|6.0bpw|3154.78|94.71|cache\\_mode: Q4, Rest of the settings as default so \"autosplit\" is enable but it only loads in a single GPU if it fits.||\n|Llama 3 70B|GGUF|Q6\\_K|452.73|13.29|\\~/llama.cpp/llama-server -m \\~/models/Meta-Llama-3-70B-Instruct.Q6\\_K.gguf -ngl 99 --host [0.0.0.0](http://0.0.0.0) --port 5000 -fa -ctk q4\\_0 -ctv q4\\_0 It splits the model across of 4 gpus and it took 14/24GB of each 3090|Q6\\_K is equivalent to 6.56bpw|\n|Llama 3 70B|EXL2|6.0bpw|442.61|14.36|cache\\_mode: Q4, Rest of the settings as default. It took 2 full gpu's + 1 half||\n|WizardLM2 8x22B|GGUF|Q4\\_K\\_M|545.78|25.27|\\~/llama.cpp/llama-server -m \\~/models/WizardLM-2-8x22B-Q4\\_K\\_M.gguf -ngl 99 --host [0.0.0.0](http://0.0.0.0) --port 5000 -fa -ctk q4\\_0 -ctv q4\\_0 -c 32000|Q4\\_K\\_M is equivalent to 4.87bpw 32K context|\n|WizardLM2 8x22B|EXL2|4.0bpw|315.16|24.53|cache\\_mode: Q4, Rest of the settings as default. Context 32K||\n\nConclusions: It seem like exl2 is a bit faster for llama3 8B (3% faster) and 70B (7% faster). But llama.cpp is faster in WizardLM2 8x22B by 3%\n\nLlama.cpp seems to have more development and contributors so it gets supports for new models faster. It's also more compatible with different platforms and allows for RAM offloading if the model doesn't fit in VRAM.\n\nIn general you cannot go wrong using exl2 in terms of performance, but you are not leaving much in the table if using gguf.\n\nNote: I'm not sure if the 6.0bpw and 4.0bpw in exl2 are exactly that size, llama.cpp server outputs the exact equivalent though. So it's not an exact comparison as each method of quantization yields different sizes event when using the \"same\" bits."
+    },
+    {
         "title": "Andrej Karpathy is launching new AI Education Company called Eureka Labs",
         "mode": "Hot",
-        "upvotes": 222,
+        "upvotes": 221,
         "comments": 45,
         "url": "https://i.redd.it/kqvfvwi594dd1.jpeg",
         "content": "Karpathy announced a new AI education company called Eureka Labs. Their first product will be world's best AI course LLM101n.\nWebsite: www.eurekalabs.ai\nRepo of Course: https://github.com/karpathy/LLM101n"
     },
     {
-        "title": "Comprehensive benchmark of GGUF vs EXL2 performance across multiple models and sizes",
-        "mode": "Hot",
-        "upvotes": 9,
-        "comments": 4,
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1e68k4o/comprehensive_benchmark_of_gguf_vs_exl2/",
-        "content": "Hi!\n\nI've been wanting to test exl2 vs gguf for some time as it seems that the common consensus is that if you can fit the model into vram=use exl2 and if not=use gguf. But due to some models not being supported on exl2 I've been using gguf more lately, and noticing really good speeds.\n\nSo I did a whole set of tests at different model sizes to confirm what is the current state of exl2 and gguf. I tested llama3 8B, 70B and a bigger MoE like WizardLM2 8x22B to cover a wide variety of sizes.\n\nSystem:\n\nEpyc 7402\n\n512GB Ram at 3200MHz\n\n4x3090 at 250w cap\n\nLlama.cpp commit: [https://github.com/ggerganov/llama.cpp/commit/3807c3de04cde853418033c95e96642876545f3e](https://github.com/ggerganov/llama.cpp/commit/3807c3de04cde853418033c95e96642876545f3e)\n\nExllamav2 0.1.7 [https://github.com/turboderp/exllamav2](https://github.com/turboderp/exllamav2)\n\nTabbyapi commt [https://github.com/theroyallab/tabbyAPI/commit/e20a2d504b95b12560cb3a90d4841a7e9d6b0e1e](https://github.com/theroyallab/tabbyAPI/commit/e20a2d504b95b12560cb3a90d4841a7e9d6b0e1e)\n\nAll models quantized by me.\n\nAll test done with:\n\n606 Token context\n\n500 Token generation\n\nPrompt processing without caching Generation speed average though 3 runs\n\nGGUF: Tested with Flash attention enabled and Q4 cache too.\n\nEXL2: It's mandatory to use Flash attention as far as I know, also Q4 cache.\n\n|Model|Format|Quant|Prompt t/s|Generation t/s|Notes|Observations|\n|:-|:-|:-|:-|:-|:-|:-|\n|Llama 3 8B|GGUF|Q6\\_K|3899.16|92.22|\\~/llama.cpp/llama-server -m \\~/models/Meta-Llama-3-8B-Instruct-Q6\\_K.gguf -ngl 99 --host [0.0.0.0](http://0.0.0.0) --port 5000 -fa -ctk q4\\_0 -ctv q4\\_0 Llama.cpp splits the models across the 4xGPUs by default. Tested with CUDA\\_VISIBLE\\_DEVICES=0 but the speed was lower when using a single GPU.|Q6\\_K is equivalent to 6.56bpw|\n|Llama 3 8B|EXL2|6.0bpw|3154.78|94.71|cache\\_mode: Q4, Rest of the settings as default so \"autosplit\" is enable but it only loads in a single GPU if it fits.||\n|Llama 3 70B|GGUF|Q6\\_K|452.73|13.29|\\~/llama.cpp/llama-server -m \\~/models/Meta-Llama-3-70B-Instruct.Q6\\_K.gguf -ngl 99 --host [0.0.0.0](http://0.0.0.0) --port 5000 -fa -ctk q4\\_0 -ctv q4\\_0 It splits the model across of 4 gpus and it took 14/24GB of each 3090|Q6\\_K is equivalent to 6.56bpw|\n|Llama 3 70B|EXL2|6.0bpw|442.61|14.36|cache\\_mode: Q4, Rest of the settings as default. It took 2 full gpu's + 1 half||\n|WizardLM2 8x22B|GGUF|Q4\\_K\\_M|545.78|25.27|\\~/llama.cpp/llama-server -m \\~/models/WizardLM-2-8x22B-Q4\\_K\\_M.gguf -ngl 99 --host [0.0.0.0](http://0.0.0.0) --port 5000 -fa -ctk q4\\_0 -ctv q4\\_0 -c 32000|Q4\\_K\\_M is equivalent to 4.87bpw 32K context|\n|WizardLM2 8x22B|EXL2|4.0bpw|315.16|24.53|cache\\_mode: Q4, Rest of the settings as default. Context 32K||\n\nConclusions: It seem like exl2 is a bit faster for llama3 8B (3% faster) and 70B (7% faster). But llama.cpp is faster in WizardLM2 8x22B by 3%\n\nLlama.cpp seems to have more development and contributors so it gets supports for new models faster. It's also more compatible with different platforms and allows for RAM offloading if the model doesn't fit in VRAM.\n\nIn general you cannot go wrong using exl2 in terms of performance, but you are not leaving much in the table if using gguf.\n\nNote: I'm not sure if the 6.0bpw and 4.0bpw in exl2 are exactly that size, llama.cpp server outputs the exact equivalent though. So it's not an exact comparison as each method of quantization yields different sizes event when using the \"same\" bits."
-    },
-    {
         "title": "Cake: A Rust Distributed LLM inference for mobile, desktop and server.",
         "mode": "Hot",
-        "upvotes": 37,
-        "comments": 12,
+        "upvotes": 38,
+        "comments": 13,
         "url": "https://github.com/evilsocket/cake",
         "content": ""
     },
@@ -194,10 +194,18 @@
     {
         "title": "What's the \"Most character.Ai\" Like local llm model ?",
         "mode": "Hot",
-        "upvotes": 26,
+        "upvotes": 29,
         "comments": 9,
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1e5yp0q/whats_the_most_characterai_like_local_llm_model/",
         "content": "What's the \"Most character.Ai\" Like local llm model ?\nI only have 12Gb vram, so i prefer it to be around 13b 14b or at the most 15b parameters model.\n\n\n\nAny suggestions?"
+    },
+    {
+        "title": "24GB vs. 48GB VRAM",
+        "mode": "Hot",
+        "upvotes": 6,
+        "comments": 14,
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1e67rlr/24gb_vs_48gb_vram/",
+        "content": "Hello all, \n\n  \nI'm currently running one 3090 card with 24GB VRAM, primarily with EXL2 or weighted GGUF quants offloaded to VRAM. As such, with >70B parameter models, I am limited to approximately 2.5BPW and below without partially loading onto system RAM. \n\n  \nI've long pondered getting a second GPU for additional VRAM capacity. With the recent news regarding the 5XXX series cards (and their allegedly underwhelming VRAM increase) and the price rise in aftermarket P40 cards (as well as their shortcomings), I was wondering if a second 3090 for a total of 48GB of VRAM would be a worthy investment at this juncture. \n\n  \nI am aware that cloud hosting/rental solution would likely be the economical option here, but I've been having lots of fun hosting and messing about on local hardware, and would be willing to make the one-time purchase to continue for the time being. \n\n  \nWhat performance alpha would a jump to 48GB from my current 24GB provide for local LLM's? If anyone here (and there appears to be a few of you) that are running 2 x 3090 currently could chime in for what that has allowed you to do in terms of running larger models, quants, and contexts, any information would be greatly appreciated. \n\n  \nThe perplexity jump from, say, 4.5BPW to 2.5BPW (at 70B, for example) doesn't appear to be massive, but it's certainly not negligible, either. A larger amount of VRAM would also allow smaller quants of larger (e.g. 103B, etc.) models to be run locally. This is something I have very little experience with due to current hardware limitations. Are current open source \"large\" parameters models worth the squeeze, so to speak?\n\n  \nAny and all input or perspectives would be appreciated. Many thanks. "
     },
     {
         "title": "New UGI Leaderboard, Writing Style leaderboard, and Anime Rating Prediction leaderboard",
@@ -208,17 +216,9 @@
         "content": "[UGI Leaderboard](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard)\n\nHello! I've finally gotten everything to a good state now and am ready to reveal the updated UGI-Leaderboard, and the new Writing Style and Anime Rating Prediction leaderboards I've been working on.\n\nThe main improvements made to the UGI-Leaderboard are its ability to measure willingness (W/10) and writing ability (I also replaced like half of the total questions). Before, the leaderboard only measured willingness based on if a model would be willing to answer a question. Now it also factors in if the model gave any sensitivity warnings/lectures before or after giving the response. The willingness questions are also harder now too. You'll notice that these changes have made models like miqu-evil-dpo and many abliterated models be placed higher in the leaderboard.\n\nThe other two leaderboards are both questions on the UGI-leaderboard, but deserved to also be their own things. I've explained how they both work at the bottom of their leaderboard tabs. I'm honestly surprised how much you can squeeze out of a single prompt. You really don't need 10,000 questions on your benchmark, you just need good questions. Though I guess that only applies to benchmarks with private test sets.\n\nI am really happy with the Anime Rating Prediction leaderboard. LLMs have so much potential as recommendation systems. They can understand connections way better than systems that just say \"this person is similar to you, here's what they like.\" They leaderboard also is in theory a great way to measure statistical analysis ability and just in general how much knowledge a model has. Though because of how miqu models and a few 8Bs are doing pretty well, it seems this is also a skill that some models are just better at.\n\nclaude-3-opus-20240229 is pretty impressive at giving ratings. It loses points because it mostly only rated models using 6,7,8 instead of the full range of 1-10, but of the three models it gave an 8, all three were in the top four highest rated anime of the test set. This can be seen by how high its correlation is. It's just a shame that its range of ratings is so small. If makes it harder to distinguish between the ratings it gives.\n\nUnfortunately with something like giving ratings predictions, it's really easy for models to choose slightly different numbers during different generations, even at temp 0. You really have to do all you can to make it as deterministic as possible.\n\n-----\n\nI also changed the leaderboard's font from HuggingFace's default to Segoe UI. Should be easier to read now.\n\nI'd love to hear your thoughts on the update and new leaderboards!"
     },
     {
-        "title": "24GB vs. 48GB VRAM",
-        "mode": "Hot",
-        "upvotes": 5,
-        "comments": 13,
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1e67rlr/24gb_vs_48gb_vram/",
-        "content": "Hello all, \n\n  \nI'm currently running one 3090 card with 24GB VRAM, primarily with EXL2 or weighted GGUF quants offloaded to VRAM. As such, with >70B parameter models, I am limited to approximately 2.5BPW and below without partially loading onto system RAM. \n\n  \nI've long pondered getting a second GPU for additional VRAM capacity. With the recent news regarding the 5XXX series cards (and their allegedly underwhelming VRAM increase) and the price rise in aftermarket P40 cards (as well as their shortcomings), I was wondering if a second 3090 for a total of 48GB of VRAM would be a worthy investment at this juncture. \n\n  \nI am aware that cloud hosting/rental solution would likely be the economical option here, but I've been having lots of fun hosting and messing about on local hardware, and would be willing to make the one-time purchase to continue for the time being. \n\n  \nWhat performance alpha would a jump to 48GB from my current 24GB provide for local LLM's? If anyone here (and there appears to be a few of you) that are running 2 x 3090 currently could chime in for what that has allowed you to do in terms of running larger models, quants, and contexts, any information would be greatly appreciated. \n\n  \nThe perplexity jump from, say, 4.5BPW to 2.5BPW (at 70B, for example) doesn't appear to be massive, but it's certainly not negligible, either. A larger amount of VRAM would also allow smaller quants of larger (e.g. 103B, etc.) models to be run locally. This is something I have very little experience with due to current hardware limitations. Are current open source \"large\" parameters models worth the squeeze, so to speak?\n\n  \nAny and all input or perspectives would be appreciated. Many thanks. "
-    },
-    {
         "title": "GPT-4o in your webcam",
         "mode": "Hot",
-        "upvotes": 250,
+        "upvotes": 257,
         "comments": 41,
         "url": "https://v.redd.it/bt1agl71u6dd1",
         "content": ""
@@ -234,7 +234,7 @@
     {
         "title": "My friend made an AI generated music video for my ogre album, did he nail it?",
         "mode": "Hot",
-        "upvotes": 295,
+        "upvotes": 290,
         "comments": 71,
         "url": "https://v.redd.it/qkpo1tmpq3dd1",
         "content": ""
@@ -242,7 +242,7 @@
     {
         "title": "Stuart Russell says AIs will develop a self-preservation instinct by default, because if you ask a robot to fetch a coffee, it will need to survive to achieve its goal",
         "mode": "Hot",
-        "upvotes": 21,
+        "upvotes": 23,
         "comments": 11,
         "url": "https://v.redd.it/69a9rzajr7dd1",
         "content": ""
@@ -250,7 +250,7 @@
     {
         "title": "What is the likelihood that the average person will see a seismic shift to their lifestyle by 2030? ",
         "mode": "Hot",
-        "upvotes": 13,
+        "upvotes": 15,
         "comments": 34,
         "url": "https://www.reddit.com/r/OpenAI/comments/1e64doh/what_is_the_likelihood_that_the_average_person/",
         "content": "And what would you say are the chances that despite all the investment AI progress does could still hit an insurmountable wall and ultimately never reach any form of general intelligence (which is still very useful but not in a way that will revolutionize our lives or solve problems besetting our species or anything that we're hoping for)?\n\nI oscillate between thinking that everything will have changed by 2030 and nothing much will have changed. \n\nBut I think ultimately with all the brain power and funding being funneled into AI, I would be incredibly surprised and disappointed if we did hit a ceiling that we couldn't break through. I guess time will tell "
@@ -258,7 +258,7 @@
     {
         "title": "In the coming weeks",
         "mode": "Hot",
-        "upvotes": 38,
+        "upvotes": 40,
         "comments": 8,
         "url": "https://i.redd.it/t1jw1vidy5dd1.jpeg",
         "content": ""
@@ -274,7 +274,7 @@
     {
         "title": "Prover-Verifier Games improve legibility of language model outputs",
         "mode": "Hot",
-        "upvotes": 6,
+        "upvotes": 8,
         "comments": 0,
         "url": "https://openai.com/index/prover-verifier-games-improve-legibility/",
         "content": ""
@@ -290,7 +290,7 @@
     {
         "title": "How to create dataset. ",
         "mode": "Hot",
-        "upvotes": 1,
+        "upvotes": 0,
         "comments": 0,
         "url": "https://www.reddit.com/r/OpenAI/comments/1e68r48/how_to_create_dataset/",
         "content": "I have been struggling to create a dataset in OpenAI's fine-tuning format. I have a document spanning nearly 235 pages that I want to convert into JSONL format. Can anyone help me with that?"
@@ -298,7 +298,7 @@
     {
         "title": "[R] Spider2-V: How Far Are Multimodal Agents From Automating Data Science and Engineering Workflows?",
         "mode": "Hot",
-        "upvotes": 20,
+        "upvotes": 21,
         "comments": 1,
         "url": "https://www.reddit.com/r/MachineLearning/comments/1e5qt1r/r_spider2v_how_far_are_multimodal_agents_from/",
         "content": "A new benchmark for multimodal AI agents, focused on real-world Dara Engineering tasks.\n\nProject page: [link](https://spider2-v.github.io/), paper: [link](https://spider2-v.github.io/static/data/Spider2-V.pdf), code: [link](https://github.com/xlang-ai/Spider2-V).\n\n=====\n\nTLDR: Autonomous LLM-agents can’t replace Data Engineers…yet. But at least we can track progress 🫡\n\nOverview:\n\nAs AI technologies become more advanced, we need increasingly complex benchmarks to evaluate the quality of systems and measure progress. A distinct branch of benchmarks has emerged, focusing on working with professional tools/applications and websites (see [WorkArena](https://github.com/ServiceNow/WorkArena), [WebArena](https://webarena.dev/), [OSWorld](https://os-world.github.io/)).\n\nIn the Spider2-V project, a benchmark is being created to evaluate AI agents in data engineering. It consists of 494 tasks covering the entire work cycle:\n\n* Data Warehousing (tools like Snowflake, BigQuery)\n* Data Ingestion (e.g., Airbyte)\n* Data Transformation (e.g., dbt)\n* Data Visualization (e.g., Superset, Metabase)\n* Data Orchestration (e.g., Airflow, Dagster)\n\n(and beloved Excel files, because who can do without them?)\n\nIf you have experience with data engineering, you understand that this is a substantial set, though it doesn't cover the entire zoo of solutions you might encounter.\n\n**Preparing each task took an average of 4 hours, so they are quite atomic and do not require very long horizon thinking**. Tasks are divided into three levels of difficulty:\n\n* Easy (20%, no more than 5 steps to solve)\n* Medium (63%, 6-15 steps)\n* Hard (17%, 16-40 steps)\n\nAll tasks are based on DE/DS tutorials, derived from the web by human labelers. Feasible to say that they represent real use cases. An example of a simple task:\n\n>Load data under the current Google Drive folder into a new table “data1” of the opened BigQuery dataset\n\nOr a task of medium difficulty:\n\n>Install dbt-cloud-cli from GitHub and extract the binary to the same folder as the dbt project \"analytics”\n\nTo solve tasks, LLM agents have access to an IDE and a browser (with accounts set up). The model generates Python code using [pyautogui](https://github.com/asweigart/pyautogui) to interact with the UI of the virtual machine, then the code is executed, and the process repeats step by step.\n\n===\n\nGuess how many tasks GPT-4 completed? \n\nOnly 14%!  It seems low, but one can highlight more successful clusters—**40% of simple tasks and 25% of data visualization tasks were solved.**\n\nIn addition to proprietary models, open models (LLAMA 3 70B, Mixtral 8x7B) were tested, but since they are not multimodal and do not accept images as input, they were only shown a text description of the screen. This significantly lowered their metrics—they solved only a percentage of the tasks. However, we are eagerly awaiting LLAMA-3 405B, rumored to be multimodal and set to be released on July 23rd.\n\n===\n\nI am VERY eager to see the benchmark metric published with the release of GPT-5—then we'll see! >!Place your bets on what percentage of tasks the next-generation models will solve! !<"
@@ -330,7 +330,7 @@
     {
         "title": "[P] Matching segment areas in medical images",
         "mode": "Hot",
-        "upvotes": 9,
+        "upvotes": 8,
         "comments": 5,
         "url": "https://www.reddit.com/r/MachineLearning/comments/1e5i610/p_matching_segment_areas_in_medical_images/",
         "content": "https://preview.redd.it/2p5lksh1z2dd1.png?width=597&format=png&auto=webp&s=1995475c783500ab58e9564e140b8debdf7dc8f3\n\nReferring to the attached image, I am wrestling with problem of building a deep learning network capable of finding which segmented area in the left image is the body section matching area 1 in the right (with the red number). Could anyone share pointers to where this challenge was addressed or in any case what is the name of the problem so that I can search for papers and code? Thanks in advance, I am open for working together also, this is for explainable AI in the context of heart disease. "
@@ -354,7 +354,7 @@
     {
         "title": "What steps should be taken to understand up to Variational Auto-Encoders? [R]",
         "mode": "Hot",
-        "upvotes": 6,
+        "upvotes": 5,
         "comments": 6,
         "url": "https://www.reddit.com/r/MachineLearning/comments/1e5idrz/what_steps_should_be_taken_to_understand_up_to/",
         "content": "Starting up with ML now and need to use VAEs for a research group. \n\n\n\nWhat concepts should I understand before I can focus on their application?"

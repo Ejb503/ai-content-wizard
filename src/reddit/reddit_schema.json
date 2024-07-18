@@ -1,0 +1,61 @@
+{
+    "name": "generate_reddit_post_summary",
+    "description": "Generate a summary of Reddit posts in a specific JSON format.",
+    "input_schema": {
+        "type": "object",
+        "required": [
+            "posts"
+        ],
+        "properties": {
+            "posts": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "required": [
+                        "title",
+                        "url",
+                        "main_topic",
+                        "key_points",
+                        "potential_impact",
+                        "relevance",
+                        "search_query"
+                    ],
+                    "properties": {
+                        "url": {
+                            "type": "string",
+                            "description": "The URL of the Reddit post."
+                        },
+                        "title": {
+                            "type": "string",
+                            "description": "The title of the Reddit post."
+                        },
+                        "relevance": {
+                            "type": "string",
+                            "description": "Relevance of the post to current ML/GenAI trends."
+                        },
+                        "key_points": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            },
+                            "description": "Key points discussed in the post."
+                        },
+                        "main_topic": {
+                            "type": "string",
+                            "description": "Main topic or technology discussed in the post."
+                        },
+                        "potential_impact": {
+                            "type": "string",
+                            "description": "Description of the post's potential impact."
+                        },
+                        "search_query": {
+                            "type": "string",
+                            "description": "An SEO optimized search query that would help research relevant information for the subject matter of this post."
+                        }
+                    }
+                },
+            }
+        },
+        "description": "Array of Reddit post summaries."
+    }
+}

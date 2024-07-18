@@ -25,12 +25,14 @@ class Reddit:
         logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
     def analyse_reddit(self):
-        with open('reddit/reddit_content.json', 'r', encoding='utf-8') as file:
+        with open('content/reddit_api_content.json', 'r', encoding='utf-8') as file:
             reddit_content = json.load(file)
         system_instruction, user_instruction, tools = PromptFetcher.fetch_prompt(ANALYSE_REDDIT_PROMPT, json.dumps(reddit_content))
 
-        file_path = 'reddit/reddit_analysis.json'
+        filename = input("Enter the filename to save the tweets. Lowercase, no spaces: ").lower().replace(" ", "_")
+        file_path = f'content/{filename}.json' 
         ClaudeChat.send_message(file_path, system_instruction, user_instruction, tools)
+        print(f"Reddit analysis complete, saved to {file_path}.")  
 
     def fetch_posts(self, subreddit_names, mode, seen_posts=set(), **kwargs):
         """
@@ -138,15 +140,15 @@ class Reddit:
             data (dict): The data to write to the file.
             mode (str): The mode of the subreddit data (e.g., 'hot', 'new', etc.).
         """
-        filename = f'reddit/reddit_content.json'
-        os.makedirs(os.path.dirname(filename), exist_ok=True)
+        file_path = f'content/${filename}.reddit.json'
+        os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
         try:
-            with open(filename, 'w', encoding='utf-8') as file:
+            with open(file_path, 'w', encoding='utf-8') as file:
                 json.dump(data, file)            
-                print(f"Saved Reddit to {filename}")
+                print(f"Saved Reddit to {file_path}")
         except IOError as e:
             print(f"Failed to save channels: {e}")
 
-        with open(filename, 'w', encoding='utf-8') as file:
+        with open(file_path, 'w', encoding='utf-8') as file:
             json.dump(data, file, ensure_ascii=False, indent=4)

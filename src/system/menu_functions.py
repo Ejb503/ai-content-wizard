@@ -1,5 +1,7 @@
 # Functions corresponding to each menu option
+from linkedin.linkedin_manager import Linkedin
 from reddit.reddit_manager import Reddit
+from twitter.twitter_manager import Twitter
 
 def fetch_topic():
     print("Fetching social media topic...")
@@ -53,5 +55,9 @@ def create_content():
     choice = input("Please select an option: ")
 
     if choice == "1":
-        reddit = Reddit()
-        reddit.analyse_reddit()
+        twitter = Twitter()
+        twitter.create_tweets()
+
+    if choice == "2":
+        linkedin = Linkedin()
+        linkedin.create_post()

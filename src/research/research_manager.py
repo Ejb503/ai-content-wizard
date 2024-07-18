@@ -1,7 +1,7 @@
 
 import requests
 from typing import Optional, List, Tuple
-from research_config import HEADERS, SEARCH_URL, SUMMARIZER_URL
+from research.research_config import HEADERS, SEARCH_URL, SUMMARIZER_URL
 from system.logger import setup_logger
 logger = setup_logger()
 import json
@@ -83,7 +83,7 @@ def ask_question_and_process_response(question: str) -> Tuple[Optional[str], Lis
     research_links = get_research_links(summary_response)
     return summary_response, research_links
 
-def research_post(title, id):
+def research_post(filename, title):
     """Identify the data processor for a company."""
     questions = [title]
     contents = []
@@ -114,8 +114,7 @@ def research_post(title, id):
         })
     logger.info("Research complete: %s" % result)
 
-    # Save result to a file named research_id.json
-    with open(f'/research/{id}_research.json', 'w') as file:
+    with open(f'content/{filename}.research.json', 'w') as file:
         json.dump(result, file, indent=4)
 
     return result
